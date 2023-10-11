@@ -40,7 +40,7 @@ public class GradebookServiceREST implements GradebookService {
 		EnrollmentDTO response = restTemplate.postForObject(gradebook_url, enrollmentDTO, EnrollmentDTO.class);
 
 		System.out.println("Check response fron Gradebook: " + response);
-		// TODO use RestTemplate to send message to gradebook service
+
 	}
 
 	@Autowired
